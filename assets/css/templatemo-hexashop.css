@@ -1589,7 +1589,7 @@ Products Page
 
 .page-heading .inner-content h2 {
   font-size: 52px;
-  color: #fff;
+  color: black;
   font-weight: 700;
   margin-bottom: 15px;
 }
@@ -1597,7 +1597,7 @@ Products Page
 .page-heading .inner-content span {
   font-size: 16px;
   font-weight: 500;
-  color: #fff;
+  color: black;
   font-style: italic;
 }
 
