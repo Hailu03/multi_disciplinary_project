@@ -24,7 +24,7 @@
             <div class="row">
                 <div class="col-12">
                     <nav class="main-nav">
-                        <a href="main.html" class="logo">
+                        <a href="{{ url_for('main') }}" class="logo">
                             <img src="{{ url_for('static',filename = 'images/logo.png') }}">
                         </a>
                         <ul class="nav">
@@ -49,6 +49,7 @@
                         </a>
                     </nav>
                 </div>
+            </div>
         </div>
     </header>
 
@@ -145,6 +146,7 @@
                     </div>
                 </div>
         </div>
+
     </section>
 
     <!-- ***** Explore Area Starts ***** -->
@@ -180,7 +182,7 @@
                             </div>
                             <div class="col-lg-6">
                                 <div class="second-image">
-                                    <img src="{{ url_for('static', filename = 'images/hai/hai5.jpg') }}" alt="">
+                                    <img src="{{ url_for('static', filename = 'images/hai/hai6.jpg') }}" alt="">
                                 </div>
                             </div>
                             <div class="col-lg-6">
