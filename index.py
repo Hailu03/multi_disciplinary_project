@@ -2,7 +2,6 @@ from flask import Flask, request, render_template
 from models import *
 
 app = Flask(__name__)
-    
 
 @app.route('/index')
 def index():
