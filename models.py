@@ -38,7 +38,7 @@ class MyNode():
                 last_pm25 = int(val['pm25'])
             else:
                 self.node_data_pm25.append(last_pm25)
-
+            # self.node_data_pm25.append(int(val['pm25']))
             self.node_data_temp.append(int(val['temp']))
             self.node_data_hum.append(int(val['hum']))
 
